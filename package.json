@@ -1,7 +1,7 @@
 {
 	"name": "json-utility-helper",
 	"description": "JSON utility commands for VS Code",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "GabeGates",
 	"license": "MIT",
 	"repository": "https://github.com/GabeGates/vscode-extension-json-helper",
