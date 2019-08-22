@@ -1,5 +1,5 @@
 # vscode-extension-json-helper
-JSON Helper utilities
+JSON Helper utilities - 
 https://marketplace.visualstudio.com/items?itemName=GabeGates.json-utility-helper
 
 This project will be used a learning project for myself, I will add new features when I have the spare time. Look forward to any feedback.
