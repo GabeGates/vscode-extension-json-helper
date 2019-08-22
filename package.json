@@ -1,0 +1,27 @@
+{
+	"name": "json-utility-helper",
+	"description": "JSON utility commands for VS Code",
+	"version": "0.0.1",
+	"publisher": "GabeGates",
+	"license": "MIT",
+	"repository": "https://github.com/GabeGates/vscode-extension-json-helper",
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"activationEvents": [
+		"onCommand:extension.jsonSanitize"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.jsonSanitize",
+				"title": "JSON Sanitize"
+			}
+		]
+	},
+	"scripts": {},
+	"devDependencies": {
+		"@types/vscode": "^1.32.0"
+	}
+}

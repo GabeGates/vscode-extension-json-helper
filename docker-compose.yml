@@ -1,0 +1,9 @@
+version: "3"
+services:
+
+  node:
+    build: ./docker-node
+    container_name: vscode-extension-json-helper
+    image: vscode-extension-json-helper
+    volumes:
+      - .:/project
