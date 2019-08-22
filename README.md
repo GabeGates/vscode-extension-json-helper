@@ -42,4 +42,12 @@ If you do not have a publisher run the following, then answer the questions. Thi
 
 `npx vsce create-publisher <publisher name>`
 
+Ensure git is setup properly
 
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+
+Then to publish use, take note that patch could be replaced with minor or major. This simply update the version for us automatically.
+
+`npx vsce publish patch`
